@@ -8,7 +8,7 @@ License: GPLv2 or later
 
 == Description ==
 Microdata for SEO by Optimum7.com allows you to add Microdata elements to your pages and posts on your blog.
-[Microdata for SEO](http://www.optimum7.com/internet-marketing/?utm_source=MicrodataPlugin)
+[Microdata for SEO](http://www.optimum7.com/internet-marketing/web-development/microdata-for-wordpress.html?utm_source=MicrodataPlugin)
 [Support and Questions](http://www.optimum7.com/contact-us?utm_source=MicrodataPlugin)
 This Plugin was built by [Optimum7](http://www.optimum7.com?utm_source=MicrodataPlugin)
 
