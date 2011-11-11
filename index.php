@@ -3,7 +3,7 @@
 	 Plugin Name: Microdata for SEO by Optimum7.com
 	 Plugin URI: http://www.optimum7.com/internet-marketing/web-development/microdata-for-wordpress.html?utm_source=MicrodataPlugin
 	 Description:This plugins allows you to add Microdata elements to your pages and posts on your blog.
-	 Version: 1.0.0
+	 Version: 1.1.0
 	 Author: Optimum7
 	 Author URI: http://www.optimum7.com/
 
@@ -51,7 +51,7 @@
 	
 	 function _microdata_for_wordpress_local_css() {
 		wp_enqueue_script('jquery');
-	 	echo '<link type="text/css" rel="stylesheet" href="' .get_bloginfo('wpurl') .'/wp-content/plugins/microdata-for-seo-by-optimum7/style.css" />' . "\n";
+	 	echo '<link type="text/css" rel="stylesheet" href="' .get_bloginfo('wpurl') .'/wp-content/plugins/microdata-for-seo-by-optimum7/microdata.css" />' . "\n";
 	 }
 	
 	 function amd_microdata_add_button() {
