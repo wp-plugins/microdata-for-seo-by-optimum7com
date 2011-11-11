@@ -7,7 +7,7 @@ Stable tag: 2.5.3
 License: GPLv2 or later
 
 == Description ==
-Microdata for SEO by Optimum7.com allows you to add Microdata elements to your pages and posts on your blog.
+Microdata for SEO by Optimum7.com is a free plug-in developed by Optimum7. This plug-in adds a button on the TinyMCE Editor that helps you generate valid Microdata Code within your WordPress posts and pages. You do not have to know html5 to use this plug-in.
 [Microdata for SEO](http://www.optimum7.com/internet-marketing/web-development/microdata-for-wordpress.html?utm_source=MicrodataPlugin)
 [Support and Questions](http://www.optimum7.com/contact-us?utm_source=MicrodataPlugin)
 
