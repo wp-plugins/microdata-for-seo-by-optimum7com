@@ -16,9 +16,9 @@ Microdata is booming. One of the main reasons more articles about this subject a
 This Plugin was built by [Optimum7](http://www.optimum7.com?utm_source=MicrodataPlugin)
 
 == Screenshots ==
-1. Duplicated Posts/Pages Menu
-2. Duplicate Post/Pages List
-3. Actions
+1. button on TinyMCE Editor
+2. Selecting Schemes
+3. Building a Person
 
 == Installation ==
 Upload the plugin to your blog and Activate it, that's set!
