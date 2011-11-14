@@ -8,7 +8,7 @@ License: GPLv2 or later
 
 == Description ==
 Microdata for WordPress is a free plug-in developed by Optimum7… This plug-in adds a button on the TinyMCE Editor that helps you generate valid Microdata Code within your WordPress posts and pages. 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/OWoWMdZFRP0" frameborder="0" allowfullscreen></iframe>
+[youtube http://www.youtube.com/watch?v=OWoWMdZFRP0]
 Microdata is booming. One of the main reasons more articles about this subject are popping up on the web is because more web browsers are supporting it. Even the browser causing the most angst by web developers, "Internet Explorer", is making huge progress to make HTML5 and Microdata ready. The fact that Microsoft, Google and Yahoo have teamed up to work together on it says enough already.
 
 [Microdata for SEO](http://www.optimum7.com/internet-marketing/web-development/microdata-for-wordpress.html?utm_source=MicrodataPlugin)
