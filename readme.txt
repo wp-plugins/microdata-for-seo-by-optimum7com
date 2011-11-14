@@ -1,6 +1,6 @@
 === Microdata for SEO by Optimum7.com ===
 Contributors: optimum7, jbeaujardin
-Tags: seo, google, microdata, html5, wordpress, ajax, jquery
+Tags: seo, google, microdata, html5, wordpress, ajax, jquery, tinyMCE
 Requires at least: 3.0
 Tested up to: 3.2
 Stable tag: 2.5.3
