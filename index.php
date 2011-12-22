@@ -85,6 +85,7 @@
 		$id = (int) $get_info["post_id"];
 		$url = get_option('siteurl');
 		$dirname = dirname(plugin_basename(__FILE__));
+		echo "<script>var url = '".get_bloginfo('wpurl')."/wp-content/plugins/microdata-for-seo-by-optimum7com/ajax.php';</script>";
 		echo <<< HTML
 		<!DOCTYPE html>
 		<head>
@@ -93,7 +94,6 @@
         
 		<script type="text/javascript">//<!CDATA[
 			var globalCount = 0;
-			var url = " <? echo OPT7_MFW_PLUGIN_PATH ?>/ajax.php";		
 			$(document).ready(function(){
 				$('#middle-notify').hide();
 				load_classes();
