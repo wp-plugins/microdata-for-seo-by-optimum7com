@@ -23,7 +23,7 @@
 		}
 
 		public function microdata(){
-			$microdata = '<div class="mdata person" itemscope itemtype="http://schema.org/Person">';
+			$microdata = '<div class="optimum7-microdata person" itemscope itemtype="http://schema.org/Person">';
 				  if ($this->name)
 				  $microdata .='<h2 class="name" itemprop="name">'.$this->name.'</h2>';
  				  if ($this->image)
@@ -65,7 +65,7 @@
 			$this->id= rand();
 		}
 		public function microdata(){
-			$microdata = '<div class="place" itemscope itemtype="http://schema.org/Place">';
+			$microdata = '<div class="optimum7-microdata place" itemscope itemtype="http://schema.org/Place">';
 			 if ($this->name)
 			 $microdata .= '<span class="name" itemprop="name"><b>'.$this->name.'</b></span><br>';
 			 if ($this->description)
@@ -98,7 +98,7 @@
 			$this->id= rand();
 		}
 		public function microdata(){
-			$microdata .= '<div class="reviews" itemscope itemtype="http://schema.org/Review">';
+			$microdata .= '<div class="optimum7-microdata reviews" itemscope itemtype="http://schema.org/Review">';
 			if ($this->name)
 			$microdata .= '<span itemprop="name">'.$this->name.'</span> - by <span itemprop="author">'.$this->author.'</span><br>,	<meta itemprop="datePublished" content="'.$this->datePublished.'">'.$this->datePublished;
 			if ($this->ratingValue)		
@@ -129,7 +129,7 @@
 			$this->id= rand();
 		}
 		public function microdata(){
-			$microdata .= '<div class="product" itemscope itemtype="http://schema.org/Product">';
+			$microdata .= '<div class="optimum7-microdata product" itemscope itemtype="http://schema.org/Product">';
 				 if ($this->name)				 
 				 $microdata .= '<span class="name" itemprop="name"><b>'.$this->name.'</b></span><br>';
 				 if ($this->image)	
@@ -178,7 +178,7 @@
 			$this->id= rand();
 		}
 		public function microdata(){
-			$microdata .= '<div class="event" itemscope itemtype="http://schema.org/Event">
+			$microdata .= '<div class="optimum7-microdata event" itemscope itemtype="http://schema.org/Event">
 				  <a class="url" itemprop="url" href="'.$this->url.'"><span itemprop="name"> <b>'.$this->name.'</b> </span></a><br>
 				  <meta class="start-date" itemprop="startDate" content="'.$this->startDate.'"><i> '.$this->startDate.'</i>
 				  <div class="location" itemprop="location" itemscope itemtype="http://schema.org/Place">				
@@ -219,7 +219,7 @@
 			$this->id=rand();
 		}
 		public function microdata(){
-			$microdata .= '<div class="organization" itemscope itemtype="http://schema.org/Organization">';
+			$microdata .= '<div class="optimum7-microdata organization" itemscope itemtype="http://schema.org/Organization">';
 			if ($this->name)
 			$microdata .= '<a class="url" itemprop="url" href="'.$this->url.'"><span class="name" itemprop="name">'.$this->name.'</span></a><br>';
 			 if ($this->address->streetAddress || $this->address->addressLocality || $this->address->addressRegion){ 
@@ -255,7 +255,7 @@
 			$this->id= rand();
 		}
 		public function microdata(){
-			$microdata = '<div class="place" itemscope itemtype="http://schema.org/LocalBusiness">';
+			$microdata = '<div class="optimum7-microdata place" itemscope itemtype="http://schema.org/LocalBusiness">';
 			if ($this->name)
 			$microdata .= '<span class="name" itemprop="name"><b>'.$this->name.'</b></span><br>';
 			if ($this->description)
@@ -271,7 +271,7 @@
 			if ($this->telephone)
 			$microdata .='<span class="telephone" itemprop="telephone">'.$this->telephone.'</span>';
 			$microdata .='</div>';
-			 return $microdata;
+			return $microdata;
 		}
 	}
 ?>
